@@ -5,6 +5,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 
 function App() {
   return (
+    <>
     <div className="min-h-screen bg-[#BEE5BF] flex flex-col xl:flex-row items-center xl:justify-center gap-6 xl:gap-10 p-8">
       {/*Left Column*/}
       <div className="flex flex-col gap-2 items-center xl:items-start mb-4 xl:mb-0">
@@ -65,6 +66,65 @@ function App() {
         </div>
       </div>
     </div>
+
+    <section className="min-h-screen bg-white flex flex-col self-start xl:ml-20">
+      <div className="w-full max-w-4xl px-8">
+      <h2 className="font-bold text-4xl text-slate-900 text-left mt-15 self-start mb-5">My Education</h2>
+      <ul>
+        <li className="relative flex gap-6 pb-5">
+          <div className="mt-21 before:absolute before:left-[7px] before:top-22 before:h-full before:w-[2px] before:bg-gray-300">
+            <div className="relative z-10 w-4 h-4 bg-white border-2 border-gray-400 rounded-full"></div>
+          </div>
+          <div className="bg-[#cae9f6] border border-gray-200 p-8 rounded-lg shadow-sm mt-10">
+            <p className="text-2xl font-bold">Carnegie Mellon University</p>
+            <p className="text-base font-light">Pittsburgh, PA</p>
+            <p className="text-base mb-3">August 2025 - Present</p>
+            
+
+            <div className="flex flex-col gap-2">
+              <p className="font-bold">Major:
+                <span className="font-normal"> Information Systems</span>
+              </p>
+
+              <p className="font-bold max-w-100">Minors: 
+                  <span className="font-normal"> Human-Computer Interaction & AI</span>
+              </p>
+
+              <p className="font-bold max-w-200">Relevant coursework:
+                <span className="font-normal"> Fundamentals of Programming and Computer Science, Methods of Statistics and Data Science, Matrices and Linear Transformations, Concepts of Mathematics, Introduction to Human-Computer Interaction</span>
+              </p>
+            </div>
+            
+          </div>
+        </li>
+
+
+        <li className="relative flex gap-6">
+          <div className="mt-21 before:absolute before:left-[7px] before:top-20 before:h-55 before:w-[2px] before:bg-gray-300">
+            <div className="relative z-10 w-4 h-4 bg-white border-2 border-gray-400 rounded-full"></div>
+          </div>
+          <div className="bg-[#cae9f6] border border-gray-200 p-8 rounded-lg shadow-sm mt-10">
+            <p className="text-2xl font-bold">High Technology High School</p>
+            <p className="text-base font-light">Lincroft, NJ</p>
+            <p className="text-base mb-3">September 2021 - June 2025</p>
+            
+
+            <div className="flex flex-col gap-2">
+              <p className="font-bold">Extracurriculers:
+                <span className="font-normal max-w-200"> National Honor Society (Historian), Performing Arts Club (Technical Director), Robotics and Coding Club, ReconX Experimental Research Group</span>
+              </p>
+
+              <p className="font-bold">Awards: 
+                  <span className="font-normal max-w-200"> Honorable Mention at the Jersey Shore Science Fair (JSSF), National Merit Scholarship Commended Student, AP Scholar with Distinction</span>
+              </p>
+            </div>
+            
+          </div>
+        </li>
+      </ul>
+      </div>
+    </section>
+    </>
   )
 }
 
