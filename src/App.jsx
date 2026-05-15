@@ -67,7 +67,7 @@ function App() {
       </div>
     </div>
 
-    <section className="min-h-screen bg-white flex flex-col self-start xl:ml-20">
+    <section className="min-h-screen bg-white flex flex-col self-start ml-20">
       <div className="w-full max-w-4xl px-8">
       <h2 className="font-bold text-4xl text-slate-900 text-left mt-15 self-start mb-5">My Education</h2>
       <ul>
@@ -110,7 +110,7 @@ function App() {
             
 
             <div className="flex flex-col gap-2">
-              <p className="font-bold">Extracurriculers:
+              <p className="font-bold">Extracurriculars:
                 <span className="font-normal max-w-200"> National Honor Society (Historian), Performing Arts Club (Technical Director), Robotics and Coding Club, ReconX Experimental Research Group</span>
               </p>
 
@@ -123,6 +123,71 @@ function App() {
         </li>
       </ul>
       </div>
+    </section>
+
+    <section className="min-h-screen bg-[#BEE5BF] flex flex-col self-start mt-20">
+      <div className="w-full max-w-4xl px-8 ml-15">
+        <h2 className="font-bold text-4xl text-slate-900 mt-15 self-start mb-5">My Experience</h2>
+      </div>
+
+      <ul>
+        <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-4xl p-8">
+            <p className="text-2xl font-bold">Research Assistant</p>
+            <p className="text-lg font-medium">CMU CS Academy</p>
+            <p className="text-base font-light mb-3">May 2026 - Present | Pittsburgh, PA (Remote)</p>
+            
+
+            <div className="flex flex-col gap-2">
+              <p className="font-normal">- text goes here
+              </p>
+
+              <p className="font-normal">- text goes here
+              </p>
+
+              <p className="font-normal">- text goes here
+              </p>
+            </div>
+            
+          </div>
+
+          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-4xl p-8">
+            <p className="text-2xl font-bold">Undergraduate Research Assistant</p>
+            <p className="text-lg font-medium">CMU Human Computer Interaction Institution (HCII), Yiya AirScience</p>
+            <p className="text-base font-light mb-3">January 2026 - Present | Pittsburgh, PA</p>
+            
+
+            <div className="flex flex-col gap-2">
+              <p className="font-normal">- text goes here
+              </p>
+
+              <p className="font-normal">- text goes here
+              </p>
+
+              <p className="font-normal">- text goes here
+              </p>
+            </div>
+            
+          </div>
+
+          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-4xl p-8">
+            <p className="text-2xl font-bold">Entrepreneurship Intern</p>
+            <p className="text-lg font-medium">AT&T</p>
+            <p className="text-base font-light mb-3">September 2024 - Janurary 2025 | Middletown, NJ</p>
+            
+
+            <div className="flex flex-col gap-2">
+              <p className="font-normal">- text goes here
+              </p>
+
+              <p className="font-normal">- text goes here
+              </p>
+
+              <p className="font-normal">- text goes here
+              </p>
+            </div>
+            
+          </div>
+      </ul>
     </section>
     </>
   )
