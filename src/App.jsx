@@ -2,6 +2,7 @@ import myPfp from './assets/pfp.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -58,7 +59,7 @@ function App() {
         </p>
         <button className="flex justify-start bg-[#8bd1ef] w-40 p-3 rounded-xl">Download Resume</button>
 
-        <div class="flex flex-row gap-3">
+        <div className="flex flex-row gap-3">
           <a href="https://linkedin.com/in/shreya-mahindroo-967820273" target="_blank" className="hover:text-[#72cb7e]"><FaLinkedin size="1.5rem"/></a>
           <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e]"><FaGithub size="1.5rem"/></a>
           <a href="mailto:smahindr@andrew.cmu.edu" className="hover:text-[#72cb7e]"><FaRegEnvelope size="1.5rem"/></a>
@@ -125,9 +126,9 @@ function App() {
       </div>
     </section>
 
-    <section className="min-h-screen bg-[#BEE5BF] flex flex-col self-start mt-20">
+    <section className="min-h-screen bg-[#BEE5BF] flex flex-col self-start mt-20 pb-20">
       <div className="w-full max-w-4xl px-8 ml-15">
-        <h2 className="font-bold text-4xl text-slate-900 mt-15 self-start mb-5">My Experience</h2>
+        <h2 className="font-bold text-4xl text-slate-900 mt-15 mb-5">My Experience</h2>
       </div>
 
       <ul>
@@ -188,6 +189,70 @@ function App() {
             
           </div>
       </ul>
+    </section>
+
+    <section id="projects" className="min-h-screen bg-white flex flex-col py-20">
+      <div className="w-full max-w-4xl px-8 ml-15">
+        <h2 className="font-bold text-4xl text-slate-900">Projects</h2>
+      </div>
+
+      <div>
+        <ul className="flex flex-row">
+          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
+            <h3 className="font-bold text-lg">LockedIN</h3>
+            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="border border-black/30 mt-5 mb-3"></div>
+            <div className="flex items-center gap-5">
+              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
+              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+            </div>
+
+          </div>
+
+          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
+            <h3 className="font-bold text-lg">Ritual</h3>
+            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="border border-black/30 mt-5 mb-3"></div>
+            <div className="flex items-center gap-5">
+              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
+              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+            </div>
+          </div>
+        </ul>
+
+        
+
+
+        <ul className="mt-5 flex flex-row">
+          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
+            <h3 className="font-bold text-lg">Personal Website</h3>
+            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="border border-black/30 mt-5 mb-3"></div>
+            <div className="flex items-center gap-5">
+              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
+              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+            </div>
+          </div>
+
+          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
+            <h3 className="font-bold text-lg">Coming Soon:</h3>
+            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="border border-black/30 mt-5 mb-3"></div>
+            <div className="flex items-center gap-5">
+              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
+              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+            </div>
+          </div>
+        </ul>
+      </div>
     </section>
     </>
   )
