@@ -206,7 +206,7 @@ function App() {
             <div className="border border-black/30 mt-5 mb-3"></div>
             <div className="flex items-center gap-5">
               <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
-              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+              <a href="https://github.com/shreyam79/LockedIN" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
             </div>
 
           </div>
