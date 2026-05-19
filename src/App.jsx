@@ -197,7 +197,7 @@ function App() {
       </div>
 
       <div>
-        <ul className="flex flex-row">
+        <ul className="flex flex-col xl:flex-row">
           <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
             <h3 className="font-bold text-lg">LockedIN</h3>
             <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
@@ -218,7 +218,7 @@ function App() {
             <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
             <div className="border border-black/30 mt-5 mb-3"></div>
             <div className="flex items-center gap-5">
-              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
+              <Link to="/project/Ritual" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
               <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
             </div>
           </div>
@@ -227,16 +227,15 @@ function App() {
         
 
 
-        <ul className="mt-5 flex flex-row">
+        <ul className="mt-1 xl:mt-5 flex flex-col xl:flex-row">
           <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
             <h3 className="font-bold text-lg">Personal Website</h3>
             <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tailwind CSS</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Javascript</div>
             <div className="border border-black/30 mt-5 mb-3"></div>
             <div className="flex items-center gap-5">
-              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
-              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+              <a href="https://github.com/shreyam79/PersonalWebsite" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
             </div>
           </div>
 
