@@ -1,4 +1,7 @@
 import myPfp from './assets/pfp.png';
+import dfaPic from './assets/dfaImage.jpg';
+import dh1 from './assets/doghouse1.jpg';
+import dh2 from './assets/doghouse2.jpg';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
@@ -48,7 +51,7 @@ function App() {
         <h1 className="hidden xl:block font-bold text-6xl text-slate-900">Hi, I'm Shreya!</h1>
         <p className="text-center xl:text-left max-w-197">I'm a student at Carnegie Mellon studying Information Systems with minors
           in Human-Computer Interaction (HCI) and AI. I am comfortable coding in Python,
-          HTML, CSS, Javascript, React, Java, and R. Outside of classes, I do research
+          HTML, CSS, Javascript, Java, and R. Outside of classes, I do research
           at CMU's Human-Computer Interaction Institute (HCII) and work at CMU CS Academy 
           as a research assistant.
 
@@ -214,8 +217,7 @@ function App() {
           <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
             <h3 className="font-bold text-lg">Ritual</h3>
             <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Codex</div>
             <div className="border border-black/30 mt-5 mb-3"></div>
             <div className="flex items-center gap-5">
               <Link to="/project/Ritual" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
@@ -240,18 +242,70 @@ function App() {
           </div>
 
           <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
-            <h3 className="font-bold text-lg">Coming Soon:</h3>
+            <h3 className="font-bold text-lg">Pay-to-Paint</h3>
             <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Python</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">cmu_graphics</div>
             <div className="border border-black/30 mt-5 mb-3"></div>
             <div className="flex items-center gap-5">
-              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
-              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+              <a href="https://github.com/shreyam79/Pay-to-Paint-Project" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
             </div>
           </div>
         </ul>
       </div>
+    </section>
+
+
+    <section className="min-h-screen bg-[#BEE5BF] flex flex-col self-start mt-20 pb-20">
+      <div className="w-full max-w-4xl px-8 ml-15">
+        <h2 className="font-bold text-4xl text-slate-900 mt-15 mb-5">Extracurriculers</h2>
+      </div>
+
+      <ul>
+        {/**DFA */}
+        <div className="flex flex-col xl:flex-row items-center gap-0 xl:gap-8 p-8">
+          <div className="xl:ml-20 p-8">
+            <img src={dfaPic} className="w-100 h-75 rounded-xl"></img>
+          </div>
+          
+          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm p-8 w-130 h-50">
+              <p className  ="text-2xl font-bold">CMU Design for America</p>
+              
+              <div className="flex flex-col gap-2">
+                <p className="font-normal pt-5">- text goes here
+                </p>
+              </div>
+              
+            </div>
+          </div>
+
+        {/**DOGHOUSE */}
+          <div className="flex flex-col xl:flex-row items-center p-8">
+
+            <div className="flex flex-row order-first xl:order-last">
+              <div className="ml-20 p-8">
+                <img src={dh1} className="h-70 w-60 xl:h-75 rounded-xl"></img>
+              </div>
+
+              <div className=" p-8">
+                <img src={dh2} className="w-60 h-70 xl:w-57 xl:h-75 rounded-xl"></img>
+              </div>
+            </div>
+          
+          
+          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm p-8 w-130 h-50 ml-20">
+              <p className="text-2xl font-bold">Doghouse/Booth</p>
+              
+              <div className="flex flex-col gap-4">
+                <p className="font-normal pt-5">- text goes here
+                </p>
+              </div>
+              
+            </div>
+            
+
+          </div>
+      </ul>
     </section>
     </>
   )
