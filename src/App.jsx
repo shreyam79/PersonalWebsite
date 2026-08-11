@@ -94,8 +94,15 @@ function App() {
                   <span className="font-normal"> Human-Computer Interaction & AI</span>
               </p>
 
-              <p className="font-bold max-w-200">Relevant coursework:
-                <span className="font-normal"> Fundamentals of Programming and Computer Science, Methods of Statistics and Data Science, Matrices and Linear Transformations, Concepts of Mathematics, Introduction to Human-Computer Interaction</span>
+              <p className="font-bold w-180">Relevant coursework:
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">15-121 </strong>Introduction to Data Structures <em className="text-gray-500">(Fall 2026)</em>
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">67-262 </strong>Database Design and Development <em className="text-gray-500">(Fall 2026)</em></span>
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">15-112 </strong>Fundamentals of Programming and Computer Science <em className="text-gray-500">(Fall 2025)</em></span>
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">36-202 </strong>Methods of Statistics and Data Science <em className="text-gray-500">(Fall 2025)</em></span>
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">21-241 </strong>Matrices and Linear Transformations <em className="text-gray-500">(Spring 2026)</em></span>
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">05-360 </strong>Designing Human-Centered Software <em className="text-gray-500">(Fall 2026)</em></span>
+                <span className="font-normal block mt-1"> <strong className="text-sky-800">21-127 </strong>Concepts of Mathematics <em className="text-gray-500">(Spring 2026)</em></span>
+                </span>
               </p>
             </div>
             
@@ -115,11 +122,11 @@ function App() {
 
             <div className="flex flex-col gap-2">
               <p className="font-bold">Extracurriculars:
-                <span className="font-normal max-w-200"> National Honor Society (Historian), Performing Arts Club (Technical Director), Robotics and Coding Club, ReconX Experimental Research Group</span>
+                <span className="font-normal max-w-[200px]"> National Honor Society (Historian), Performing Arts Club (Technical Director), Robotics and Coding Club, ReconX Experimental Research Group</span>
               </p>
 
               <p className="font-bold">Awards: 
-                  <span className="font-normal max-w-200"> Honorable Mention at the Jersey Shore Science Fair (JSSF), National Merit Scholarship Commended Student, AP Scholar with Distinction</span>
+                  <span className="font-normal max-w-[200px]"> Honorable Mention at the Jersey Shore Science Fair (JSSF), National Merit Scholarship Commended Student, AP Scholar with Distinction</span>
               </p>
             </div>
             
@@ -142,10 +149,10 @@ function App() {
             
 
             <div className="flex flex-col gap-2">
-              <p className="font-normal">- text goes here
+              <p className="font-normal">What I worked on: 
               </p>
 
-              <p className="font-normal">- text goes here
+              <p className="font-normal">Key Takeaway: 
               </p>
 
               <p className="font-normal">- text goes here
@@ -161,13 +168,20 @@ function App() {
             
 
             <div className="flex flex-col gap-2">
-              <p className="font-normal">- text goes here
+              <p className="font-normal">Context: [some context about Yiya and their struggles]
               </p>
 
-              <p className="font-normal">- text goes here
+              <p className="font-normal">Spring 26: [what we accomplished]
               </p>
 
-              <p className="font-normal">- text goes here
+              <p className="font-normal">Summer 26 (through SURA): [what we accomplished]
+              </p>
+
+              <p className="font-normal">Fall 26: [what we plan to accomplish]
+              </p>
+
+              <p className="font-normal">
+                Put link to summer docu here?
               </p>
             </div>
             
@@ -258,7 +272,7 @@ function App() {
 
     <section className="min-h-screen bg-[#BEE5BF] flex flex-col self-start mt-20 pb-20">
       <div className="w-full max-w-4xl px-8 ml-15">
-        <h2 className="font-bold text-4xl text-slate-900 mt-15 mb-5">Extracurriculers</h2>
+        <h2 className="font-bold text-4xl text-slate-900 mt-15 mb-5">Extracurriculars</h2>
       </div>
 
       <ul>
