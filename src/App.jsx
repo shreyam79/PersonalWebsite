@@ -27,7 +27,7 @@ function App() {
 
         <div className="flex flex-row gap-2">
           <h3 className="font-bold text-lg uppercase text-gray-600">Pronouns:</h3>
-          <p className="text-lg">She/Hers</p>
+          <p className="text-lg">She/Her</p>
         </div>
 
         <div className="flex flex-row gap-2">
@@ -60,7 +60,13 @@ function App() {
           and (occasionally) AB Tech.
 
         </p>
-        <button className="flex justify-start bg-[#8bd1ef] w-40 p-3 rounded-xl">Download Resume</button>
+        <a
+          href="/Shreya_Mahindroo_Resume.pdf"
+          download
+          className="flex justify-start bg-[#8bd1ef] w-40 p-3 rounded-xl text-center text-slate-900 no-underline"
+        >
+          Download Resume
+        </a>
 
         <div className="flex flex-row gap-3">
           <a href="https://linkedin.com/in/shreya-mahindroo-967820273" target="_blank" className="hover:text-[#72cb7e]"><FaLinkedin size="1.5rem"/></a>
