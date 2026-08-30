@@ -145,17 +145,14 @@ function App() {
         <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-4xl p-8">
             <p className="text-2xl font-bold">Research Assistant</p>
             <p className="text-lg font-medium">CMU CS Academy</p>
-            <p className="text-base font-light mb-3">May 2026 - Present | Pittsburgh, PA (Remote)</p>
+            <p className="text-base font-light mb-3">May 2026 - Present | Pittsburgh, PA</p>
             
 
             <div className="flex flex-col gap-2">
-              <p className="font-normal">What I worked on: 
+              <p className="font-normal">Over the summer, I led live, week-long virtual training sessions for educators preparing to teach CS1 or AP CSP through CMU CS Academy. In each session, I walked through content, exercises, and answered questions.
               </p>
 
-              <p className="font-normal">Key Takeaway: 
-              </p>
-
-              <p className="font-normal">- text goes here
+              <p className="font-normal">Additionally, I help build out offline PD resources for educators, including short instructional videos on individual topics. 
               </p>
             </div>
             
@@ -168,39 +165,13 @@ function App() {
             
 
             <div className="flex flex-col gap-2">
-              <p className="font-normal">Context: [some context about Yiya and their struggles]
+              <p className="font-normal"><strong>Context:</strong> Yiya AirScience provides radio and phone-based financial literacy classes to students in Uganda. The AirVoice platform uses an AI teacher that students can call to ask questions or get clarifications on course logistics.
               </p>
 
-              <p className="font-normal">Spring 26: [what we accomplished]
+              <p className="font-normal"><strong>Spring 2026:</strong> I conducted initial qualitative and quantitative research on interview transcripts with students. Using Python, I cleaned and aggregated the transcript data, analyzed patterns in call timing and duration, and created visualizations to identify trends.
               </p>
 
-              <p className="font-normal">Summer 26 (through SURA): [what we accomplished]
-              </p>
-
-              <p className="font-normal">Fall 26: [what we plan to accomplish]
-              </p>
-
-              <p className="font-normal">
-                Put link to summer docu here?
-              </p>
-            </div>
-            
-          </div>
-
-          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-4xl p-8">
-            <p className="text-2xl font-bold">Entrepreneurship Intern</p>
-            <p className="text-lg font-medium">AT&T</p>
-            <p className="text-base font-light mb-3">September 2024 - Janurary 2025 | Middletown, NJ</p>
-            
-
-            <div className="flex flex-col gap-2">
-              <p className="font-normal">- text goes here
-              </p>
-
-              <p className="font-normal">- text goes here
-              </p>
-
-              <p className="font-normal">- text goes here
+              <p className="font-normal"><strong>Summer 2026:</strong> Through the CMU Summer Undergraduate Research Apprenticeship (SURA), I continued my research. Most of my work involved cleaning and analyzing hundreds of transcripts between Ugandan learners and the AI teacher using Google Apps Script and Python. I also helped build the first drafts of a coding rubric (informed by literature reviews and learning science frameworks such as SRL and ICAP). We did this to evaluate the quality of learner-AI conversations. I also built a pipeline to measure inter-rater reliability (IRR) using Fleiss' and Cohen's kappa across 2-3 coders.
               </p>
             </div>
             
@@ -216,26 +187,27 @@ function App() {
       <div>
         <ul className="flex flex-col xl:flex-row">
           <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
-            <h3 className="font-bold text-lg">LockedIN</h3>
-            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tech 1</div>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Tech 2</div>
-            <div className="border border-black/30 mt-5 mb-3"></div>
-            <div className="flex items-center gap-5">
-              <Link to="/project/LockedIN" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
-              <a href="https://github.com/shreyam79/LockedIN" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
-            </div>
-
-          </div>
-
-          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
             <h3 className="font-bold text-lg">Ritual</h3>
-            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
+            <p className="max-w-150 text-sm">
+              Ritual is a habit tracker where users can see their daily habits, streaks, and overall stats. I made high-fidelity wireframes in Figma, and built Ritual using Codex.
+            </p>
             <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Codex</div>
             <div className="border border-black/30 mt-5 mb-3"></div>
             <div className="flex items-center gap-5">
-              <Link to="/project/Ritual" className="underline text-base mt-5 hover:text-[#72cb7e]">Details</Link>
-              <a href="https://github.com/shreyam79" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+              <a href="https://github.com/shreyam79/Ritual" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
+            </div>
+          </div>
+
+          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
+            <h3 className="font-bold text-lg">Personal Website</h3>
+            <p className="max-w-150 text-sm">
+              This is my personal website! I've built it over the past few months mainly using Tailwind CSS.
+            </p>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tailwind CSS</div>
+            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Javascript</div>
+            <div className="border border-black/30 mt-5 mb-3"></div>
+            <div className="flex items-center gap-5">
+              <a href="https://github.com/shreyam79/PersonalWebsite" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
             </div>
           </div>
         </ul>
@@ -245,19 +217,10 @@ function App() {
 
         <ul className="mt-1 xl:mt-5 flex flex-col xl:flex-row">
           <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
-            <h3 className="font-bold text-lg">Personal Website</h3>
-            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Tailwind CSS</div>
-            <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">Javascript</div>
-            <div className="border border-black/30 mt-5 mb-3"></div>
-            <div className="flex items-center gap-5">
-              <a href="https://github.com/shreyam79/PersonalWebsite" target="_blank" className="hover:text-[#72cb7e] mt-5"><FaGithub size="1.5rem"/></a>
-            </div>
-          </div>
-
-          <div className="ml-15 bg-[#cae9f6] backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm ml-20 mt-5 max-w-lg p-8">
             <h3 className="font-bold text-lg">Pay-to-Paint</h3>
-            <p className="max-w-150 text-sm">Description goes here. Here is some stuff and some more stuff about this project. Brief 1-2 sentence summary.</p>
+            <p className="max-w-150 text-sm">
+              For my final project in my 15-112 class at CMU, I built Pay-to-Paint, a spin off of "Color By Numbers". Players earn coins to purchase paints and power-ups, which they use to complete 3 color-by-number pictures.
+            </p>
             <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block mr-5 mt-3 ml-0 text-xs">Python</div>
             <div className="bg-amber-100 border-1 rounded-full pl-3 pr-3 pt-1 pb-1 inline-block text-xs">cmu_graphics</div>
             <div className="border border-black/30 mt-5 mb-3"></div>
@@ -282,11 +245,11 @@ function App() {
             <img src={dfaPic} className="w-100 h-75 rounded-xl"></img>
           </div>
           
-          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm p-8 w-130 h-50">
+          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm p-8 w-130">
               <p className  ="text-2xl font-bold">CMU Design for America</p>
               
               <div className="flex flex-col gap-2">
-                <p className="font-normal pt-5">- text goes here
+                <p className="font-normal pt-5"> I joined CMU's chapter of Design for America (DFA) in my freshman year. I worked on a project with 7 other members to design a solution for Fortyx80, a local Pittsburgh organization. <br/><br/> This year, I'm co-team lead with Mahee, and we're working with Hello Neighbor to design a workflow that captures and shares the stories of immigrants and refugees in Pittsburgh. We'll be working with Salesforce!
                 </p>
               </div>
               
@@ -307,11 +270,11 @@ function App() {
             </div>
           
           
-          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm p-8 w-130 h-50 ml-20">
+          <div className="bg-white/40 backdrop-blur-sm border border-white/20 rounded-2xl shadow-sm p-8 w-130 ml-20">
               <p className="text-2xl font-bold">Doghouse/Booth</p>
               
               <div className="flex flex-col gap-4">
-                <p className="font-normal pt-5">- text goes here
+                <p className="font-normal pt-5">One of my favorite memories at CMU was building a Doghouse booth with the South Asian Association (Mayur SASA) for Spring Carnival! We spent several weeks building and decorating it out, from cutting and sanding wood to painting the final product. It was a lot of fun, and we won 3rd place!
                 </p>
               </div>
               
